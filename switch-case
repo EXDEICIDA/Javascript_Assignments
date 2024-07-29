@@ -1,0 +1,26 @@
+const day = "monday".toLowerCase(); // Convert to lowercase to handle case insensitivity
+
+switch (day) {
+  case "monday":
+    console.log("Plan your course layout.");
+    console.log("Start with a clear vision.");
+    break;
+  case "tuesday":
+    console.log("Work on your tasks.");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Write code and improve your projects.");
+    break;
+  case "friday":
+    console.log("Record videos and review your week's work.");
+    break;
+  case "saturday":
+    console.log("Relax and enjoy your weekend.");
+    break;
+  case "sunday":
+    console.log("Prepare for the upcoming week.");
+    break;
+  default:
+    console.log("Not a valid day.");
+}
